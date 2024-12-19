@@ -31,7 +31,7 @@ class User
             'email' => $this->email,
             'password' => $hashedPassword
         ]);
-
+        return true;
     }
     public function login()
     {
